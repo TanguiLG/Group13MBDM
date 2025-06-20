@@ -1,4 +1,4 @@
-This is a cleaned version of the Git repository we used for our project.
+This is the Git repository we used for our project.
 
 To access the files we used and edited, navigate through:
 
