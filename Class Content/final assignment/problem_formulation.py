@@ -270,7 +270,8 @@ def get_model_for_problem_formulation(problem_formulation_id):
     # Disaggregate over locations:
     elif problem_formulation_id == 3:
         outcomes = []
-
+    # Here we added an if-statement to only include the dike outcomes relevant ot our problem owner.
+    # This changes the outcome for problem formulation for option 3
         for dike in function.dikelist:
             if 'A.5' in str(dike):    
                 cost_variables = []
