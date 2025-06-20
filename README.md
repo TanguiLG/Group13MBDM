@@ -12,3 +12,6 @@ Our part of the project consists of three files, added to the original "final pr
 Each file can be ran independently, since we decided to run the dike model for each one. All three files are annotated with markdown cells for clarity.
 
 Edits were made to "problem_formulation.py", after line 275. We chose problem formulation 3, but decided to implement an if statement to better fit our case. 
+Four csv files were generated as part of our analysis:
+For PRIM: experiments.csv and outcomes.csv
+For MORDM: cat_comparison.csv and comparison_df.csv
